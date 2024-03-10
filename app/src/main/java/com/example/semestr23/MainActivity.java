@@ -2,6 +2,7 @@ package com.example.semestr23;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -57,6 +58,9 @@ public class MainActivity extends AppCompatActivity {
                 logWarning("Опасно!");
             }
         });
+
+        getWindow().setStatusBarColor(Color.parseColor("#000000"));
+
     }
     private void showInfo(String text) {
         Toast.makeText(this, text, Toast.LENGTH_LONG).show();
