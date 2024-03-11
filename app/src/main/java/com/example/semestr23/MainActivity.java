@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 showInfo("INFO: Откройте логи!");
-                logMessage("Инфомарция!");
+                logMessage("Информарция!");
             }
         });
         two.setOnClickListener(new View.OnClickListener() {
